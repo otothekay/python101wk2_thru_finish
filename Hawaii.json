@@ -1,0 +1,413 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "2u2g-c52b",
+      "name" : "DBEDT Hawaii Fossil Fuel Consumption And Expenditures 1970-2009",
+      "attribution" : "Department of Economic Development and Tourism",
+      "attributionLink" : "http://hawaii.gov/dbedt",
+      "averageRating" : 0,
+      "category" : "Economic Development",
+      "createdAt" : 1346183317,
+      "displayType" : "table",
+      "downloadCount" : 1167,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "licenseId" : "CC_30_BY",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 1021707,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1346203779,
+      "publicationGroup" : 413610,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1346183320,
+      "rowsUpdatedBy" : "uaqq-pakk",
+      "tableId" : 413610,
+      "totalTimesRated" : 0,
+      "viewCount" : 357,
+      "viewLastModified" : 1346805982,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1346203779,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 806002,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1346203779,
+        "workflowId" : 2182,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "uaqq-pakk",
+          "displayName" : "Douglas Oshiro"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 16617807,
+        "name" : "X Values",
+        "dataTypeName" : "number",
+        "fieldName" : "x_values",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 3963886,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 50,
+          "average" : "1984.5",
+          "largest" : "2009",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2001",
+            "count" : 20
+          }, {
+            "item" : "2002",
+            "count" : 19
+          }, {
+            "item" : "2003",
+            "count" : 18
+          }, {
+            "item" : "2004",
+            "count" : 17
+          }, {
+            "item" : "2005",
+            "count" : 16
+          }, {
+            "item" : "2006",
+            "count" : 15
+          }, {
+            "item" : "2007",
+            "count" : 14
+          }, {
+            "item" : "2008",
+            "count" : 13
+          }, {
+            "item" : "2009",
+            "count" : 12
+          } ],
+          "smallest" : "1960",
+          "sum" : "99225"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 16617808,
+        "name" : "Fossil Fuel Consumption",
+        "dataTypeName" : "number",
+        "fieldName" : "fossil_fuel_consumption",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 3963887,
+        "width" : 376,
+        "cachedContents" : {
+          "non_null" : 50,
+          "average" : "227.984",
+          "largest" : "323.8",
+          "null" : 0,
+          "top" : [ {
+            "item" : "255.3",
+            "count" : 20
+          }, {
+            "item" : "274.3",
+            "count" : 19
+          }, {
+            "item" : "287.9",
+            "count" : 18
+          }, {
+            "item" : "302.4",
+            "count" : 17
+          }, {
+            "item" : "312.2",
+            "count" : 16
+          }, {
+            "item" : "313.5",
+            "count" : 15
+          }, {
+            "item" : "323.8",
+            "count" : 14
+          }, {
+            "item" : "261.8",
+            "count" : 13
+          }, {
+            "item" : "249.8",
+            "count" : 12
+          } ],
+          "smallest" : "94.6",
+          "sum" : "11399.2"
+        },
+        "format" : { }
+      }, {
+        "id" : 16617809,
+        "name" : "Fossil Fuel Expenditures",
+        "dataTypeName" : "number",
+        "fieldName" : "fossil_fuel_expenditures",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 3963888,
+        "width" : 388,
+        "cachedContents" : {
+          "non_null" : 40,
+          "average" : "1676.11",
+          "largest" : "5318.0",
+          "null" : 10,
+          "top" : [ {
+            "item" : "203.5",
+            "count" : 20
+          }, {
+            "item" : "230.9",
+            "count" : 19
+          }, {
+            "item" : "241.0",
+            "count" : 18
+          }, {
+            "item" : "285.9",
+            "count" : 17
+          }, {
+            "item" : "404.0",
+            "count" : 16
+          }, {
+            "item" : "518.0",
+            "count" : 15
+          }, {
+            "item" : "563.9",
+            "count" : 14
+          }, {
+            "item" : "663.0",
+            "count" : 13
+          }, {
+            "item" : "736.4",
+            "count" : 12
+          }, {
+            "item" : "1039.1",
+            "count" : 11
+          }, {
+            "item" : "1529.3",
+            "count" : 10
+          }, {
+            "item" : "1773.7",
+            "count" : 9
+          }, {
+            "item" : "1592.7",
+            "count" : 8
+          }, {
+            "item" : "1500.9",
+            "count" : 7
+          }, {
+            "item" : "1553.0",
+            "count" : 6
+          }, {
+            "item" : "1582.3",
+            "count" : 5
+          }, {
+            "item" : "1132.2",
+            "count" : 4
+          }, {
+            "item" : "1171.7",
+            "count" : 3
+          }, {
+            "item" : "1259.8",
+            "count" : 2
+          }, {
+            "item" : "1454.8",
+            "count" : 1
+          } ],
+          "smallest" : "203.5",
+          "sum" : "67044.4"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 3.0 Unported",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/3.0/legalcode"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Data Reference" : {
+            "Records Reporting System RSN" : "21210",
+            "Reference for Technical Information" : "",
+            "Frequency" : "",
+            "Date Updated" : "",
+            "Date Released" : "",
+            "Period of Coverage" : "",
+            "Unit of Analysis" : "",
+            "Data dictionary/variable list" : ""
+          },
+          "Hawaii Line of Business" : {
+            "Division name" : "",
+            "Line of Business" : "Economic Development",
+            "Division shortname, acronym" : "",
+            "Department Agency short name, acronym" : "DBEDT",
+            "State of Hawaii Data Book Category" : "Energy and Science",
+            "Department/Agency" : "Business Economic Development and Tourism"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "uaqq-pakk",
+        "displayName" : "Douglas Oshiro",
+        "screenName" : "Douglas Oshiro",
+        "type" : "interactive",
+        "userSegment" : "community_user"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "uaqq-pakk",
+        "displayName" : "Douglas Oshiro",
+        "screenName" : "Douglas Oshiro",
+        "type" : "interactive",
+        "userSegment" : "community_user"
+      },
+      "tags" : [ "fuel" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-mrk5-qh8e~w7em", "00000000-0000-0000-AF4D-4A5C32998A7B", 0, 1425775310, null, 1425775310, null, "{ }", "1960", "94.6", null ]
+, [ "row-pp3b~22jy_anhf", "00000000-0000-0000-9023-84325CBBE891", 0, 1425775310, null, 1425775310, null, "{ }", "1961", "113.5", null ]
+, [ "row-hhw5~zwtk.n2fs", "00000000-0000-0000-6760-9F36D9EC8234", 0, 1425775310, null, 1425775310, null, "{ }", "1962", "108.1", null ]
+, [ "row-cdw3-muhr.e75x", "00000000-0000-0000-9937-88FF66281545", 0, 1425775310, null, 1425775310, null, "{ }", "1963", "113.9", null ]
+, [ "row-uzre-hpvp-2yv7", "00000000-0000-0000-DB54-4F4835A57190", 0, 1425775310, null, 1425775310, null, "{ }", "1964", "122.1", null ]
+, [ "row-myph.5rqp.56rx", "00000000-0000-0000-F3C8-D99F911ECE84", 0, 1425775310, null, 1425775310, null, "{ }", "1965", "129.3", null ]
+, [ "row-u89n-5jxx_6y9w", "00000000-0000-0000-9345-D560C46549D8", 0, 1425775310, null, 1425775310, null, "{ }", "1966", "144.2", null ]
+, [ "row-uj4c.6u94~vax5", "00000000-0000-0000-8E79-BB92D02B754E", 0, 1425775310, null, 1425775310, null, "{ }", "1967", "162.5", null ]
+, [ "row-vqmz~vv8h~8bhw", "00000000-0000-0000-A882-89FABF179F12", 0, 1425775310, null, 1425775310, null, "{ }", "1968", "181.1", null ]
+, [ "row-evq9.jsjq_rcpv", "00000000-0000-0000-F78C-F28932683EB4", 0, 1425775310, null, 1425775310, null, "{ }", "1969", "189.1", null ]
+, [ "row-mii7.86mt~mbmd", "00000000-0000-0000-3C09-034C77ABA168", 0, 1425775310, null, 1425775310, null, "{ }", "1970", "195.4", "203.5" ]
+, [ "row-eyx2-tuid.n2zi", "00000000-0000-0000-EB9F-B61E4AC94F1A", 0, 1425775310, null, 1425775310, null, "{ }", "1971", "210.4", "230.9" ]
+, [ "row-d3yb~c8fj~egcg", "00000000-0000-0000-EC94-12F500B7AA9B", 0, 1425775310, null, 1425775310, null, "{ }", "1972", "216.6", "241.0" ]
+, [ "row-nr87~n6ga.8wp3", "00000000-0000-0000-59FA-436F9F2D30D2", 0, 1425775310, null, 1425775310, null, "{ }", "1973", "222.8", "285.9" ]
+, [ "row-r2b7.afhd.ta93", "00000000-0000-0000-C171-44B6F18CB01A", 0, 1425775310, null, 1425775310, null, "{ }", "1974", "210.6", "404.0" ]
+, [ "row-2sxf_sziw-wsi3", "00000000-0000-0000-C060-6A519D935B5A", 0, 1425775310, null, 1425775310, null, "{ }", "1975", "212.9", "518.0" ]
+, [ "row-p7a7~82n6-mzgg", "00000000-0000-0000-21E6-EC54147985DD", 0, 1425775310, null, 1425775310, null, "{ }", "1976", "218.4", "563.9" ]
+, [ "row-4bi3.vn8p_4kms", "00000000-0000-0000-AB78-2D04F9FE56E7", 0, 1425775310, null, 1425775310, null, "{ }", "1977", "231.9", "663.0" ]
+, [ "row-7aki.xe7a~9emj", "00000000-0000-0000-2EB6-FD1B9864B215", 0, 1425775310, null, 1425775310, null, "{ }", "1978", "235.7", "736.4" ]
+, [ "row-5jhw.2n6i~75gx", "00000000-0000-0000-E22D-D94D9ECF130F", 0, 1425775310, null, 1425775310, null, "{ }", "1979", "255.3", "1039.1" ]
+, [ "row-ed2m_aw79-txw6", "00000000-0000-0000-ACF3-0F04D6D5192F", 0, 1425775310, null, 1425775310, null, "{ }", "1980", "249.6", "1529.3" ]
+, [ "row-xhtf_fyp2_x3g7", "00000000-0000-0000-D94E-A71D6AF44E0C", 0, 1425775310, null, 1425775310, null, "{ }", "1981", "223.2", "1773.7" ]
+, [ "row-h5qx~vkqu-4i2w", "00000000-0000-0000-48EB-9068F120A3D4", 0, 1425775310, null, 1425775310, null, "{ }", "1982", "204.9", "1592.7" ]
+, [ "row-5xzi-ir4h~b3nd", "00000000-0000-0000-6DD6-0CDF337AC823", 0, 1425775310, null, 1425775310, null, "{ }", "1983", "206.4", "1500.9" ]
+, [ "row-in5a~9ksd-j4gs", "00000000-0000-0000-4DD3-FD78D54A0B24", 0, 1425775310, null, 1425775310, null, "{ }", "1984", "217.0", "1553.0" ]
+, [ "row-wh3w_tjbj.auz8", "00000000-0000-0000-9DE3-98151EB3EDF7", 0, 1425775310, null, 1425775310, null, "{ }", "1985", "233.2", "1582.3" ]
+, [ "row-rkdg.p67j.p4da", "00000000-0000-0000-00B2-6C95EF260442", 0, 1425775310, null, 1425775310, null, "{ }", "1986", "228.0", "1132.2" ]
+, [ "row-vptj.mcvf.qkvq", "00000000-0000-0000-E164-E51074A96B01", 0, 1425775310, null, 1425775310, null, "{ }", "1987", "230.6", "1171.7" ]
+, [ "row-uavc-jmu2.u7ns", "00000000-0000-0000-6494-B3A0F3C18C8D", 0, 1425775310, null, 1425775310, null, "{ }", "1988", "269.2", "1259.8" ]
+, [ "row-kycd_6vyh~r4h2", "00000000-0000-0000-7AF0-BC2D1F037F8D", 0, 1425775310, null, 1425775310, null, "{ }", "1989", "280.9", "1454.8" ]
+, [ "row-xuxm-pw4s_fu49", "00000000-0000-0000-BF33-C082B2095474", 0, 1425775310, null, 1425775310, null, "{ }", "1990", "293.5", "1798.9" ]
+, [ "row-v5pa-r84q-zkt4", "00000000-0000-0000-38E1-062A43CE626E", 0, 1425775310, null, 1425775310, null, "{ }", "1991", "267.6", "1528.2" ]
+, [ "row-fzi3-md4c-scnr", "00000000-0000-0000-11DE-6452D327078C", 0, 1425775310, null, 1425775310, null, "{ }", "1992", "279.1", "1461.6" ]
+, [ "row-83ue~k7r8~qr55", "00000000-0000-0000-AD4A-2FB332EB306B", 0, 1425775310, null, 1425775310, null, "{ }", "1993", "255.3", "1388.2" ]
+, [ "row-iwu3~4vqy-uxjg", "00000000-0000-0000-3B9B-E824F5D6CCF0", 0, 1425775310, null, 1425775310, null, "{ }", "1994", "274.0", "1432.9" ]
+, [ "row-s47h_src4.deqd", "00000000-0000-0000-5CE7-B11E8CF4026F", 0, 1425775310, null, 1425775310, null, "{ }", "1995", "272.5", "1459.6" ]
+, [ "row-cuws_65tw.qhte", "00000000-0000-0000-5994-7308631298C4", 0, 1425775310, null, 1425775310, null, "{ }", "1996", "259.2", "1525.5" ]
+, [ "row-yvr9.ur7c.n5n5", "00000000-0000-0000-E9DB-2CCD29A02D77", 0, 1425775310, null, 1425775310, null, "{ }", "1997", "251.0", "1448.4" ]
+, [ "row-aesp-e4rp_vhp5", "00000000-0000-0000-8EF5-6B68788252BB", 0, 1425775310, null, 1425775310, null, "{ }", "1998", "251.7", "1289.7" ]
+, [ "row-wxfx.aicq_gh5m", "00000000-0000-0000-1162-227AE1176BF2", 0, 1425775310, null, 1425775310, null, "{ }", "1999", "247.6", "1370.0" ]
+, [ "row-zxpv-crw8.pw7a", "00000000-0000-0000-F069-CE94B50E4467", 0, 1425775310, null, 1425775310, null, "{ }", "2000", "252.9", "1854.2" ]
+, [ "row-9jd5-jr8i-4jdf", "00000000-0000-0000-4944-AA101D29567B", 0, 1425775310, null, 1425775310, null, "{ }", "2001", "257.7", "1880.4" ]
+, [ "row-34qc_hvpe.sr9b", "00000000-0000-0000-4856-39DC309B2733", 0, 1425775310, null, 1425775310, null, "{ }", "2002", "274.3", "1871.2" ]
+, [ "row-hcf7_26d4~zijc", "00000000-0000-0000-311E-15A9C3128F78", 0, 1425775310, null, 1425775310, null, "{ }", "2003", "287.9", "2318.7" ]
+, [ "row-kx99_yxsy_eyc4", "00000000-0000-0000-4251-18C60C0BE58F", 0, 1425775310, null, 1425775310, null, "{ }", "2004", "302.4", "2876.2" ]
+, [ "row-33ms.d3nn_68cb", "00000000-0000-0000-8F45-45ADCE9EAA07", 0, 1425775310, null, 1425775310, null, "{ }", "2005", "312.2", "3883.1" ]
+, [ "row-e4t4-brum.uzbx", "00000000-0000-0000-2F5C-DA5142ABED0C", 0, 1425775310, null, 1425775310, null, "{ }", "2006", "313.5", "4529.4" ]
+, [ "row-vju3.j45d.qzms", "00000000-0000-0000-7FA7-911ADB93BB45", 0, 1425775310, null, 1425775310, null, "{ }", "2007", "323.8", "4987.2" ]
+, [ "row-39vv~z8uz_77r9", "00000000-0000-0000-39C5-E4186D128553", 0, 1425775310, null, 1425775310, null, "{ }", "2008", "261.8", "5318.0" ]
+, [ "row-p83h~s4zs.uhju", "00000000-0000-0000-B4DA-40CDBFFFFA0D", 0, 1425775310, null, 1425775310, null, "{ }", "2009", "249.8", "3386.9" ]
+ ]
+}
